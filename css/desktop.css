@@ -1,0 +1,29 @@
+@media screen and (min-width: 900px) { 
+    body {
+        text-align: center;
+    }
+    main,header,footer {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+    button {
+        border-radius: 10px;
+    }
+    input[type = submit] {
+        top: 985%;
+    }
+    header {
+        left: 50%;
+        transform: translate(-50%);
+        margin: auto;
+        text-align: center;
+        border-bottom: 2px solid white;
+    }
+    h1 {
+        position: absolute;
+    }
+    .p-contacto {
+        font-size: 30px;
+    }
+}
