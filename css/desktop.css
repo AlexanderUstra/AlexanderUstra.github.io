@@ -2,9 +2,6 @@
     body {
         text-align: center;
     }
-    main {
-        height: 2000px;
-    }
     main,header,footer {
         width: 50%;
         margin: auto;

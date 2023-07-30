@@ -1,7 +1,6 @@
 let menuBtn = document.getElementById("menu");
 let menuOpciones = document.getElementById("menu-lat");
 let mailBtn = document.getElementById("enviar-mail");
-let main = document.getElementById('main');
 let i = 0;
 
 
