@@ -26,4 +26,20 @@
     .p-contacto {
         font-size: 30px;
     }
+    .caja-tecs {
+        height: 400px;
+    }
+    #conocimientos {
+        height: 500px;
+    }
+    #proyectos {
+        height: 600px;
+    }
+    #contacto-intermedio {
+        height: 700px;
+    }
+    #enviar-mail {
+        position: absolute;
+        top: 855%;
+    }
 }
