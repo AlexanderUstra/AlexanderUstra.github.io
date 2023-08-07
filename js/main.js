@@ -32,16 +32,3 @@ window.addEventListener("scroll", () => {
       }
     });
 });
-
-mailBtn.addEventListener("click",(evento)=>{
-    evento.preventDefault();
-    alert("Enviado")
-    let inputs = document.getElementsByTagName("input");
-    document.getElementById("textarea").value = " "
-
-    for (let i = 0; i < inputs.length; i++) {
-    inputs[i].value = "";
-    mailBtn.value = "Enviar";
-}
-})
-

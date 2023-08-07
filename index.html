@@ -101,14 +101,16 @@
             <div id="caja-contacto">
                 <h3>Contacto</h3>
                 <img src="img/gmail.png" alt="Email">
-                <form action="correo">
+                <form action="https://formsubmit.co/aleustrsa2004@gmail.com" method="POST">
                     <p class="p-contacto">Correo</p>
-                    <input type="text">
+                    <input type="email" name="email">
                     <p class="p-contacto">Nombre</p>
-                    <input type="text">
+                    <input type="text" name="name">
                     <p class="p-contacto">Mensaje</p>
-                    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                    <textarea name="mensaje" id="textarea" cols="30" rows="10"></textarea>
                     <input type="submit" id="enviar-mail">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
             </div>
         </section>
