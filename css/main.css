@@ -118,8 +118,10 @@ button {
     transition: .4s;
 }
 form {
-    margin: auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    margin: auto;
     width: 90%;
     height: 66%;
 }
@@ -134,12 +136,10 @@ input ,textarea{
     color: white;
     background-color:  #395d68;
     transition: .8s;
+    margin: auto;
 }
 input[type = "submit"] {
-    position: absolute;
-    top: 1010%;
-    left: 50%;
-    transform: translate(-50%);
+    margin: auto;
     margin-top: 20px;
     width: 120px;
     transition: .5s;
