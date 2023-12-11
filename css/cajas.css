@@ -1,10 +1,14 @@
+:root {
+    --color-caja :rgb (166, 242, 250)
+}
 .caja-info , .caja-tecs, #caja-contacto , .caja-chica, .caja-proj {
     margin: auto;
     margin-bottom: 40px;
     width: 90%;
     height: 200px;
     border-radius: 4px 4px;
-    background-color:  rgb(39, 130, 122) ;
+    border: .7px solid rgb(106, 127, 124);
+    background-color: rgba(32, 35, 33, 0.08);
     box-shadow: 8px 9px 6px 0px rgba(0,0,0,0.36);
     -webkit-box-shadow: 8px 9px 6px 0px rgba(0,0,0,0.36);
     -moz-box-shadow: 8px 9px 6px 0px rgba(0,0,0,0.36);
@@ -12,7 +16,7 @@
 }
 .caja-info {
     width: 85%;
-    height: 300px;
+    height: 320px;
 }
 .caja-tecs {
     width: 90%;
@@ -26,6 +30,40 @@
     margin-bottom:20px;
     width: 170px;
     height: 200px;
+    position: relative;
+}
+.caja-proj:hover::before {
+    opacity: 1;
+}
+.caja-proj::before {
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 500ms;
+    width: 100%;
+    z-index: 2;
+}
+.caja-proj::before {
+    background: radial-gradient(
+        400px circle at var(--mouse-x) var(--mouse-y),
+        rgba(166, 242, 250, 0.15),
+        transparent 40%
+    );
+    z-index: 3;
+}
+
+.caja-proj > .contenido {
+    background-color: var(--color-caja);
+    border-radius: inherit;
+    height: calc(100% - 5px);
+    margin: 3px;
+    position: absolute;
+    width: calc(100% - 5px);
+    z-index: 2;
 }
 .caja-chica {
     height: 130px;
@@ -44,7 +82,7 @@
 }
 .ubicacion-usuario {
     transition: .5s;
-    background-color: #6dbe58;
+    background-color:#cacaca;
     transform: scale(1.1);
 }
 
@@ -75,7 +113,7 @@
 }
 #caja-contacto {
     width: 90%;
-    height: 95vh;
+    height: 73vh;
     margin: auto;
     text-align: center;
 }

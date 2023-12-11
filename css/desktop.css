@@ -24,6 +24,10 @@
     h1 {
         position: absolute;
     }
+    .caja-info {
+        width: 85%;
+        height: 230px;
+    }
     .p-contacto {
         font-size: 30px;
     }

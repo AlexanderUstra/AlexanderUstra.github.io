@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/cajas.css">
     <link rel="stylesheet" href="css/desktop.css">
     <link rel="stylesheet" href="css/hovers.css">
-    <title>AleUstra Portafolio</title>
+    <title>AlexUstra Portafolio</title>
 </head>
 <body>
     <header>
@@ -36,8 +36,8 @@
             <div class="caja-info">
                 <h3>Estudios</h3>
                 <p>
-                    - Actualmente cursando la fase dos de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jóvenes a Programar </a> modalidad desarrollo web y ampliando mis conocimientos de forma autodidacta. <br> <br>
-                    - Bachillerato terminado con orientación Agronomía en el Liceo N° 1 Ildefonso Pablo Estévez de Tacuarembó.
+                    - Egresado de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jóvenes a Programar </a> modalidad desarrollo web y ampliando mis conocimientos de forma autodidacta. <br> <br>
+                    - Bachillerato terminado con orientación <span class="to-shake"  style="display: inline-block;">Agronomía</span>.
                 </p>
             </div>
             <div class="caja-info">
@@ -49,7 +49,7 @@
             <div class="caja-info">
                 <h3>Programación</h3>
                 <p>
-                    Desde chico me apasiona la tecnología pero no tenia idea sobre programación, hasta que un dia decidí buscar como se hacian las páginas web, empecé con HTML y CSS y me encantó, desde ese momento supe que quería dedicarme a esto, y me aseguré cuando empecé a usar Javascript, actualmente llevo 7 meses estudiando desarrollo web de forma autodidacta .
+                    Desde chico me apasiona la tecnología pero no tenia idea sobre programación, hasta que un dia decidí buscar como se hacian las páginas web, empecé con HTML y CSS y me encantó, desde ese momento supe que quería dedicarme a esto, y me aseguré cuando empecé a usar Javascript, actualmente llevo 12 meses estudiando desarrollo web de forma autodidacta.
                 </p>
             </div>
         </section>
@@ -59,12 +59,12 @@
         <section id="conocimientos">
             <h3>Tecnologías que uso</h3>
             <div class="caja-tecs">
-                <img src="img/html-5.png" alt="html-logo">
-                <img src="img/css-3.png" alt="css-logo">
-                <img src="img/js.png" alt="javascript-logo">
-                <img src="img/vscode.png" alt="vs code-logo">
-                <img src="img/github-logo.png" alt="github-logo">
-                <img src="img/figma.png" alt="figma-logo">
+                <img src="img/react-logo.png" alt="react-logo" class="to-shake">
+                <img src="img/bootstrap-logo.png" alt="bootstrap-logo" class="to-shake">
+                <img src="img/js.png" alt="javascript-logo" class="to-shake">
+                <img src="img/css-3.png" alt="css-logo" class="to-shake">
+                <img src="img/github-logo.png" alt="github-logo" class="to-shake">
+                <img src="img/figma.png" alt="figma-logo" class="to-shake">
             </div>
         </section>
         <section>
@@ -77,20 +77,28 @@
             </p>
             <div id="contenedor-proyectos">
                 <div class="caja-proj">
-                    <h4>Type Game</h4>
-                    <a href="https://github.com/CopiaPiratA/typeGame" target="_blank"><img src="img/github-logo.png" alt="github" class="img-icon"></a>
+                    <div class="contenido">
+                        <h4>Type Game</h4>
+                        <a href="https://github.com/CopiaPiratA/typeGame" target="_blank"><img src="img/github-logo.png" alt="github" class="img-icon"></a>
+                    </div>
                 </div>
                 <div class="caja-proj">
-                    <h4>Generador de contraseñas</h4>
-                    <a href="https://github.com/CopiaPiratA/password-generator" target="_blank"><img src="img/github-logo.png" alt="github" class="img-icon"></a>
+                    <div class="contenido">
+                        <h4>Generador de contraseñas</h4>
+                        <a href="https://github.com/CopiaPiratA/password-generator" target="_blank"><img src="img/github-logo.png" alt="github" class="img-icon"></a>
+                    </div>
                 </div>
                 <div class="caja-proj">
-                    <h4>Piedra, Papel o Tijeras</h4>
-                    <a href="https://github.com/CopiaPiratA/rock---paper---scissors" target="_blank"><img src="img/github-logo.png" alt="github" class="img-icon"></a>
+                    <div class="contenido">
+                        <h4>Piedra, Papel o Tijeras</h4>
+                        <a href="https://github.com/CopiaPiratA/rock---paper---scissors"    target="_blank"><img src="img/github-logo.png" alt="github"    class="img-icon"></a>
+                    </div>
                 </div>
                 <div class="caja-proj">
-                    <h4>Calendario</h4>
-                    <a href="https://github.com/CopiaPiratA/Calendar" target="_blank"><img src="img/github-logo.png" alt="github" class="img-icon"></a>
+                    <div class="contenido">
+                        <h4>Calendario</h4>
+                        <a href="https://github.com/CopiaPiratA/Calendar"   target="_blank"><img src="img/github-logo.png" alt="github" class="img-icon"></a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -102,12 +110,9 @@
                 <h3>Contacto</h3>
                 <img src="img/gmail.png" alt="Email">
                 <form action="https://formsubmit.co/aleustrsa2004@gmail.com" method="POST">
-                    <p class="p-contacto">Correo</p>
-                    <input type="email" name="email">
-                    <p class="p-contacto">Nombre</p>
-                    <input type="text" name="name">
-                    <p class="p-contacto">Mensaje</p>
-                    <textarea name="mensaje" id="textarea" cols="30" rows="10"></textarea>
+                    <input type="email" name="email" placeholder="Correo">
+                    <input type="text" name="name" placeholder="Nombre">
+                    <textarea name="mensaje" id="textarea" cols="30" rows="10" placeholder="Asunto"></textarea>
                     <input type="submit" id="enviar-mail">
                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
                     <input type="hidden" name="_captcha" value="false">
@@ -119,14 +124,18 @@
                 <img src="img/gmail.png" alt="email-logo" class="contacto-logo">
                 <p>aleustrsa2004@gmail.com</p>
             </div>
-            <div class="caja-chica">
-                <img src="img/linkedin.png" alt="Linkedin-logo" class="contacto-logo">
-                <a href="https://www.linkedin.com/in/alexander-ustra-595833248/" target="_blank">Alexander Ustra</a>
-            </div>
-            <div class="caja-chica">
-                <img src="img/github-logo.png" alt="github-logo" class="contacto-logo">
-                <a href="https://github.com/alexanderustra" target="_blank">github.com/alexanderustra</a>
-            </div>
+            <a href="https://www.linkedin.com/in/alexander-ustra-595833248/" target="_blank">
+                <div class="caja-chica">
+                    <img src="img/linkedin.png" alt="Linkedin-logo" class="contacto-logo">
+                    <p style="color: #f3fa94;">Alexander Ustra</p>
+                </div>
+            </a>
+            <a href="https://github.com/alexanderustra" target="_blank">
+                <div class="caja-chica">
+                    <img src="img/github-logo.png" alt="github-logo" class="contacto-logo">
+                    <p style="color: #f3fa94;">alexanderustra</p>
+                </div>
+            </a>
         </section>
     </main>
     <aside id="menu-lat">
