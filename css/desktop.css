@@ -24,6 +24,9 @@
     h1 {
         position: absolute;
     }
+    section {
+        height: 50vh;
+    }
     .caja-info {
         width: 85%;
         height: 230px;
@@ -34,6 +37,13 @@
     .caja-tecs {
         height: 400px;
     }
+    .caja-proj {
+        width: 200px;
+        height: 240px;
+    }
+    #conocimientos-subtitulo {
+        margin-top: 200px;
+    }
     #conocimientos {
         height: 500px;
     }
@@ -41,6 +51,11 @@
         height: 600px;
     }
     #contacto-intermedio {
-        height: 700px;
+        height: 100px;
+        margin-bottom: 120px;
+    }
+    #contacto {
+        height: 70vh;
+        margin-bottom: 90px;
     }
 }

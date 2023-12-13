@@ -27,9 +27,6 @@ a:hover {
 .caja-info:hover,h1:hover,button:hover,h2:hover{
     transform: scale(1.1);
 }
- .caja-chica:hover {
-    background-color: #cacaca;
-}
 .caja-proj:hover {
     transform: scale(1.1);
 }

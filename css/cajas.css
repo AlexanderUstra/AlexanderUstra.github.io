@@ -7,7 +7,7 @@
     width: 90%;
     height: 200px;
     border-radius: 4px 4px;
-    border: .7px solid rgb(106, 127, 124);
+    border: 1px solid rgb(106, 127, 124);
     background-color: rgba(32, 35, 33, 0.08);
     box-shadow: 8px 9px 6px 0px rgba(0,0,0,0.36);
     -webkit-box-shadow: 8px 9px 6px 0px rgba(0,0,0,0.36);
@@ -29,8 +29,9 @@
     margin-top: 20px;
     margin-bottom:20px;
     width: 170px;
-    height: 200px;
+    height: 250px;
     position: relative;
+    border: 1px solid  #f3fa94;
 }
 .caja-proj:hover::before {
     opacity: 1;
@@ -56,20 +57,12 @@
     z-index: 3;
 }
 
-.caja-proj > .contenido {
-    background-color: var(--color-caja);
-    border-radius: inherit;
-    height: calc(100% - 5px);
-    margin: 3px;
-    position: absolute;
-    width: calc(100% - 5px);
-    z-index: 2;
-}
 .caja-chica {
     height: 130px;
     justify-content: center;
     display: flex;
     transition: .4s;
+    border-color:  #f3fa94;
 }
 .menu-btn ,.ubicacion-usuario {
     position: relative;

@@ -45,7 +45,7 @@ aside {
 }
 
 section {
-    height: 100vh;
+    height: 60vh;
     justify-content: center;
 }
 img {
@@ -191,9 +191,18 @@ span {
 .to-shake {
     animation: shake 1s infinite;
 }
-
+#conocimientos-subtitulo {
+    margin-top: 400px;
+}
+#contacto-intermedio {
+    height: 150px;
+    margin-bottom: 150px;
+}
+#contacto {
+    height: 80vh;
+}
 #proyectos {
-    height: 120vh;
+    height: 90vh;
 }
 #copyright {
     text-align: center;
