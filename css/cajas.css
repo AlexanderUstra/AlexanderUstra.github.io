@@ -7,7 +7,7 @@
     width: 90%;
     height: 200px;
     border-radius: 4px 4px;
-    border: 1px solid rgb(106, 127, 124);
+    border: 1px solid  #f3fa94;
     background-color: rgba(32, 35, 33, 0.08);
     box-shadow: 8px 9px 6px 0px rgba(0,0,0,0.36);
     -webkit-box-shadow: 8px 9px 6px 0px rgba(0,0,0,0.36);
@@ -25,11 +25,10 @@
     text-align: center;
 }
 .caja-proj {
-    border-radius: 10px;
     margin-top: 20px;
     margin-bottom:20px;
-    width: 170px;
-    height: 250px;
+    width: 90%;
+    height: 300px;
     position: relative;
     border: 1px solid  #f3fa94;
 }
@@ -86,7 +85,7 @@
     width: 70px;
     height: 300px;
     animation-name: salir;
-    animation-duration: .5s;
+    animation-duration: .2s;
 }
 .menu-lat-entrada  {
     position: fixed;
@@ -95,7 +94,10 @@
     width: 70px;
     height: 300px;
     animation-name: entrar;
-    animation-duration: .5s;
+    animation-duration: .3s;
+}
+#última-caja-info {
+    height: 480px;
 }
 #contenedor-proyectos {
     margin: auto;
@@ -106,7 +108,7 @@
 }
 #caja-contacto {
     width: 90%;
-    height: 73vh;
+    height: 80vh;
     margin: auto;
     text-align: center;
 }
@@ -124,6 +126,6 @@
       right: -20%;
     }
     100% {
-      right: 2%;
+        right: 2%;
     }
 }

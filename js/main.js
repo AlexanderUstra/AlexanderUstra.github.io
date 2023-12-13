@@ -11,7 +11,6 @@ menuBtn.addEventListener("click",()=>{
 
 window.addEventListener("scroll", () => {
     let posicionUsuario = window.scrollY;
-    console.log(posicionUsuario)
   
     let botonesMenu = document.querySelectorAll("#menu-lat .menu-btn"); 
   

@@ -23,13 +23,15 @@
     }
     h1 {
         position: absolute;
+        font-size: 60px;
+        letter-spacing: 6px;
     }
     section {
         height: 50vh;
     }
     .caja-info {
         width: 85%;
-        height: 230px;
+        height: 220px;
     }
     .p-contacto {
         font-size: 30px;
@@ -38,8 +40,14 @@
         height: 400px;
     }
     .caja-proj {
-        width: 200px;
-        height: 240px;
+        width: 400px;
+        height: 270px;
+    }
+    .menu-lat-entrada  {
+        animation-duration: .7s;
+    }
+    #última-caja-info {
+        height: 270px;
     }
     #conocimientos-subtitulo {
         margin-top: 200px;
@@ -48,14 +56,29 @@
         height: 500px;
     }
     #proyectos {
-        height: 600px;
+        height: 800px;
     }
     #contacto-intermedio {
         height: 100px;
         margin-bottom: 120px;
+        margin-top: 0px;
     }
     #contacto {
         height: 70vh;
-        margin-bottom: 90px;
+        margin-bottom:140px;
+    }
+    @keyframes entrar {
+        0% {
+          right: -20%;
+        }
+        15% {
+            right: 2%;
+        }
+        50% {
+          right: 1%;
+        }
+        100% {
+            right: 2%;
+        }
     }
 }
