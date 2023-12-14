@@ -93,11 +93,11 @@ h4 {
 }
 h5 {
     font-family: 'League Spartan', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 15px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     color: #f3fa94;
 }
 p , a {
@@ -215,6 +215,19 @@ span {
     height: 150px;
     margin-bottom: 150px;
 }
+#proyectos-sub {
+    height: 200px;
+    margin-top: 450px;
+    margin-bottom: 100px;
+}
+#tecnologías {
+    height: 250px;
+}
+#contacto-intermedio {
+    height: 250px;
+    margin: 0px;
+    margin-bottom: 50px;
+}
 #contacto {
     height: 80vh;
 }
@@ -224,12 +237,6 @@ span {
 #contacto-dos {
     margin-top: 60px;
 }
-#copyright {
-    text-align: center;
-}
-
-
-
 @keyframes shake {
     0% { transform: translate(0.25px, 0.25px) rotate(0deg); }
     10% { transform: translate(-0.25px, -0.5px) rotate(-0.5deg); }

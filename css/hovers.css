@@ -24,8 +24,11 @@ a:hover {
     font-size: 21px;
     color: #7EFFF7;
 }
-.caja-info:hover,h1:hover,button:hover,h2:hover{
+h1:hover,button:hover,h2:hover{
     transform: scale(1.1);
+}
+.caja-info:hover {
+    transform: scale(1.04);
 }
 .caja-proj:hover {
     transform: scale(1.1);

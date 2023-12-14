@@ -27,11 +27,11 @@
         letter-spacing: 6px;
     }
     section {
-        height: 50vh;
+        height: 45vh;
     }
     .caja-info {
-        width: 85%;
-        height: 220px;
+        width: 94%;
+        height: 190px;
     }
     .p-contacto {
         font-size: 30px;
@@ -46,26 +46,44 @@
     .menu-lat-entrada  {
         animation-duration: .7s;
     }
+    #sobre-mi {
+        height: 300px;
+    }
     #última-caja-info {
-        height: 270px;
+        height: 220px;
     }
-    #conocimientos-subtitulo {
-        margin-top: 200px;
-    }
-    #conocimientos {
-        height: 500px;
+    #proyectos-sub {
+        height: 300px;
+        margin-top: 150px;
+        margin-bottom: 0px;
     }
     #proyectos {
-        height: 800px;
+        height: 500px;
+    }
+    #tecnologías {
+        height: 200px;
+        margin-bottom: 100px;
+    }
+    #conocimientos-subtitulo {
+        margin-top: 100px;
+    }
+    #conocimientos {
+        height: 400px;
     }
     #contacto-intermedio {
-        height: 100px;
+        height: 200px;
         margin-bottom: 120px;
         margin-top: 0px;
     }
     #contacto {
-        height: 70vh;
+        height: 600px;
         margin-bottom:140px;
+    }
+    #caja-contacto {
+        height: 670px;
+    }
+    #contacto-dos {
+        height: 500px;
     }
     @keyframes entrar {
         0% {
