@@ -1,6 +1,5 @@
 h1:hover {
-    color: #404749;
-    text-shadow: 4px 4px 0px rgba(255, 255, 255, 0.6);
+    color: #f3fa94;
 }
 h2:hover {
     color: #ffffff;
@@ -11,7 +10,7 @@ img:hover {
 }
 button:hover , .menu-btn:hover{
     background-color: #cacaca;
-    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #347995, 0 0 40px #347995, 0 0 50px #347995, 0 0 60px #347995;
+    box-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #f3fa94, 0 0 20px #f3fa94, 0 0 30px #f3fa94, 0 0 40px #f3fa94;
     animation: neon-glow 1s ease-in-out infinite alternate;
 }
 input[type= submit]:hover, input[type = submit]:focus {
@@ -24,7 +23,7 @@ a:hover {
     font-size: 21px;
     color: #7EFFF7;
 }
-h1:hover,button:hover,h2:hover{
+button:hover,h2:hover{
     transform: scale(1.1);
 }
 .caja-info:hover {
@@ -35,6 +34,9 @@ h1:hover,button:hover,h2:hover{
 }
 .caja-chica:hover {
     transform: scale(1.05);
+}
+.proj-link:hover , .proj-link-2:hover {
+    transform: scale(1.1);
 }
 @keyframes neon-glow {
     from {

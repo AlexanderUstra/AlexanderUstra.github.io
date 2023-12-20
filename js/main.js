@@ -11,14 +11,13 @@ menuBtn.addEventListener("click",()=>{
 
 window.addEventListener("scroll", () => {
     let posicionUsuario = window.scrollY;
-  
     let botonesMenu = document.querySelectorAll("#menu-lat .menu-btn"); 
   
-    if (posicionUsuario < 2000) {
+    if (posicionUsuario < 1500) {
       i = 0;
-    } else if (posicionUsuario > 2000 && posicionUsuario < 3098) {
+    } else if (posicionUsuario > 1499 && posicionUsuario < 2500) {
       i = 1;
-    } else if (posicionUsuario > 3098 && posicionUsuario <4000) {
+    } else if (posicionUsuario > 2499 && posicionUsuario <3200) {
       i = 2;
     } else {
       i = 3;

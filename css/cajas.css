@@ -64,38 +64,68 @@
     border-color:  #f3fa94;
 }
 .menu-btn ,.ubicacion-usuario {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
     position: relative;
-    border: none;
     left: 10%;
-    top: 0%;
+    top: 0%; 
     width: 70px;
     height: 70px;
+    border-radius: 2px;
     margin-bottom: 10px;
+    background-color:   rgb(52, 55, 53) ;
+    border: 1px solid #f3fa94;
+    cursor: pointer;
+    transition: .4s;
+   
 }
+
 .ubicacion-usuario {
     transition: .5s;
-    background-color:#cacaca;
     transform: scale(1.1);
 }
 
-.menu-lat-salida  {
-    position: fixed;
-    top: 20%;
-    right: -20%;
-    width: 70px;
-    height: 300px;
-    animation-name: salir;
-    animation-duration: .2s;
-}
-.menu-lat-entrada  {
+.menu-lat-salida {
     position: fixed;
     top: 20%;
     right: 2%;
     width: 70px;
     height: 300px;
+    transform: translateX(100%);
+    animation-name: salir;
+    animation-duration: .2s;
+}
+
+.menu-lat-entrada {
+    position: fixed;
+    top: 20%;
+    right: 2%;
+    width: 70px;
+    height: 300px;
+    transform: translateX(0);
     animation-name: entrar;
     animation-duration: .3s;
 }
+
+@keyframes salir {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes entrar {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
 #última-caja-info {
     height: 360px;
 }
@@ -116,19 +146,3 @@
     text-align: center;
 }
 
-@keyframes salir {
-    0% {
-      right: 2%;
-    }
-    100% {
-      right: -20%;
-    }
-}
-@keyframes entrar {
-    0% {
-      right: -20%;
-    }
-    100% {
-        right: 2%;
-    }
-}
